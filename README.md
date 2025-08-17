@@ -55,7 +55,7 @@ Este projeto foi um processo de experimentação e aprendizado contínuo. Inicia
 
 1.  Clone este repositório para sua máquina local.
     ```
-    git clone [Link do seu repositório]
+    git clone [https://github.com/hugohmb/bootstrap_inicio/tree/main]
     ```
 2.  Abra o arquivo `index.html` em seu navegador de preferência.
 
