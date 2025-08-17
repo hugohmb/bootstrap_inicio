@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="pt-br" data-bs-theme="dark">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/711ca78760.js" crossorigin="anonymous"></script>
+
+    <style>
+    .card-text {
+        text-align: justify;
+    }
+</style>
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top py-0">
+
+        <div class="container"> <a class="navbar-brand" href="https://www.instagram.com/hugo.hmb/" target="_blank"> <img
+                    src="assents/icone.png" width="50px"></a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+
+                <span class="navbar-toggler-icon"> </span>
+
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="https://www.linkedin.com/in/hugohmb/"
+                            target="_blank">
+                            <i class="fa-brands fa-linkedin fa-lg"></i>
+                            <span class="visually-hidden">Linkedin</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://github.com/hugohmb" target="_blank">
+                            <i class="fa-brands fa-github fa-lg"></i>
+                            <span class="visually-hidden">GitHub</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.behance.net/hugohmb" target="_blank">
+                            <i class="fa-brands fa-square-behance"></i>
+                            <span class="visually-hidden">Behance</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://wa.me/21970959397" target="_blank">
+                            <i class="fa-brands fa-whatsapp fa-lg"></i>
+                            <span class="visually-hidden">WhatsApp</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+    </nav>
+
+    
+
+    <section class="d-flex align-items-center vh-100 vw-100"
+        style="background-image: url('assents/backgtound02.png'); background-position: center; background-size: cover; background-repeat: no-repeat;">
+
+        <div class="container text-center text-white">
+            <h1>Hugo Mendes - Designer e Desenvolvedor Front-End</h1>
+            <p>Contrate um Dev</p>
+        </div>
+    </section>
+
+    <section class="py-5 vw-100 bg-body-tertiary">
+
+    <div class="container text-center">
+
+        <h2 class="text-center mb-5">Habilidades</h2>
+
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+            
+            <div class="col d-flex justify-content-center">
+                <div class="card h-100" style="width: 18rem;">
+                    <img src="assents/HTML5.png" class="card-img-top" alt="Logo HTML5">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">HTML</h5>
+                        <p class="card-text">Com o HTML, construo a estrutura sólida e semântica da web. É a base onde cada página ganha vida, organizando conteúdo de forma lógica e acessível, garantindo que a fundação do projeto seja robusta e pronta para qualquer desafio de design.</p>
+                        <button type="button" class="btn btn-primary mt-auto" data-bs-toggle="modal" data-bs-target="#htmlModal">
+                            Saber Mais
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col d-flex justify-content-center">
+                <div class="card h-100" style="width: 18rem;">
+                    <img src="assents/CSS3.png" class="card-img-top" alt="Logo CSS3">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">CSS</h5>
+                        <p class="card-text">Utilizo o CSS para dar estilo e identidade a cada projeto. Através dele, crio designs visualmente atraentes, implemento animações e, principalmente, garanto que a interface se adapte perfeitamente a qualquer dispositivo, tornando a experiência de navegação fluida e responsiva.</p>
+                        <button type="button" class="btn btn-primary mt-auto" data-bs-toggle="modal" data-bs-target="#cssModal">
+                            Saber Mais
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col d-flex justify-content-center">
+                <div class="card h-100" style="width: 18rem;">
+                    <img src="assents/javascript.png" class="card-img-top" alt="Logo JavaScript">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">JavaScript</h5>
+                        <p class="card-text">O JavaScript é a alma da interatividade. Com ele, dou vida às interfaces, transformando páginas estáticas em experiências dinâmicas. Minhas habilidades incluem manipulação de eventos, lógica de dados e comunicação assíncrona para criar funcionalidades ricas e que respondem ao usuário em tempo real.</p>
+                        <button type="button" class="btn btn-primary mt-auto" data-bs-toggle="modal" data-bs-target="#jsModal">
+                            Saber Mais
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col d-flex justify-content-center">
+                <div class="card h-100" style="width: 18rem;">
+                    <img src="assents/React.png" class="card-img-top" alt="Logo React">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">React</h5>
+                        <p class="card-text">No ecossistema de frameworks, o React se destaca pela construção de interfaces modulares e eficientes. Com ele, crio componentes reutilizáveis e gerencio o estado da aplicação de forma inteligente, o que me permite desenvolver Single-Page Applications (SPAs) complexas e com alta performance.</p>
+                        <button type="button" class="btn btn-primary mt-auto" data-bs-toggle="modal" data-bs-target="#reactModal">
+                            Saber Mais
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+    <section class="py-5 vw-100">
+
+        <section class="py-5 vw-100">
+
+            <form id="contactForm" class="container w-50" action="https://formspree.io/f/xovlbrlb" method="POST">
+
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Endereço de E-mail</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                        name="_replyto" required>
+                    <div id="emailHelp" class="form-text">Nunca compartilharemos seu e-mail com mais ninguém.</div>
+                </div>
+
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Mensagem</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="message"
+                        required></textarea>
+                </div>
+
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Confirmar</label>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Enviar</button>
+
+                <div id="successMessage" class="mt-3 text-center"></div>
+
+            </form>
+
+        </section>
+    </section>
+
+    <footer class="bg-body-tertiary text-center text-lg-start">
+
+        <div class="text-center p-3" style="background-color: rgba#2b3035;">
+            © 2025 Copyright <a class="text-light" href="https://www.linkedin.com/in/hugohmb/"><em>Hugo Mendes
+                    Barbosa</em></a>
+        </div>
+
+    </footer>
+
+    <div class="modal fade" id="htmlModal" tabindex="-1" aria-labelledby="htmlModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="htmlModalLabel">Minhas Habilidades em HTML</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Minha jornada com o HTML se aprofundou na compreensão de que ele é muito mais do que a sintaxe de uma página. Aprendi a construir a estrutura semântica da web, garantindo que cada elemento tenha um propósito claro e acessível. Esse entendimento me permitiu aplicar conceitos de lógica de programação  para organizar o conteúdo de forma intuitiva. Hoje, utilizo o HTML para criar a fundação de projetos funcionais, limpos e otimizados.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="cssModal" tabindex="-1" aria-labelledby="cssModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="cssModalLabel">Minhas Habilidades em CSS</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Com o CSS, a transição foi de apenas estilizar elementos para dar vida aos designs. Minha experiência me levou a dominar a tradução de ideias visuais em interfaces fluidas e responsivas. Através de conceitos de design e prototipagem, aplico o CSS para garantir que a aparência de um projeto seja consistente em qualquer dispositivo. É a ferramenta que utilizo para criar experiências de usuário envolventes e visualmente agradáveis.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="jsModal" tabindex="-1" aria-labelledby="jsModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="jsModalLabel">Minhas Habilidades em JavaScript</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    A minha evolução com o JavaScript começou com os fundamentos da linguagem, lógica de programação e manipulação do DOM. Esse aprendizado me permitiu transformar páginas estáticas em ambientes dinâmicos e interativos. Hoje, aplico essas habilidades para criar funcionalidades que respondem ao usuário em tempo real, gerenciar dados de forma assíncrona e construir a lógica por trás de experiências de usuário ricas e completas.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="reactModal" tabindex="-1" aria-labelledby="reactModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="reactModalLabel">Minhas Habilidades em React</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    O React foi um passo fundamental na minha transição para o desenvolvimento front-end moderno. Nele, aprendi a construir interfaces complexas usando a abordagem de componentes reutilizáveis, que otimiza a performance e a manutenção do código. Essa ferramenta me permitiu desenvolver projetos de grande escala com funcionalidades avançadas, gerenciando o estado da aplicação de forma inteligente e criando Single-Page Applications (SPAs) eficientes.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous">
+        </script>
+
+</body>
+
+</html>
