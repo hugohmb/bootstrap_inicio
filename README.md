@@ -1,8 +1,6 @@
 # Portfólio Pessoal - Introdução ao Bootstrap 5
 
-\<p align="center"\>
-\<img src="" alt="Prévia da Landing Page"\>
-\</p\>
+![Prévia do projeto]([./preview.png](https://raw.githubusercontent.com/hugohmb/bootstrap_inicio/refs/heads/main/bootstrap_inicio.png)
 
 ## Sobre o Projeto
 
