@@ -1,6 +1,6 @@
 # Portfólio Pessoal - Introdução ao Bootstrap 5
 
-![Prévia do projeto]([./preview.png](https://raw.githubusercontent.com/hugohmb/bootstrap_inicio/refs/heads/main/bootstrap_inicio.png)
+![Prévia do projeto](./bootstrap_inicio.png)
 
 ## Sobre o Projeto
 
